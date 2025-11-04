@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "373268648295",
+    "project_id": "ipt1-3",
+    "storage_bucket": "ipt1-3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373268648295:android:47422d33decd2527b9dfc2",
+        "android_client_info": {
+          "package_name": "com.example.yawa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjU6fMQVNDguX_1RcpFXs4OfilV7DIS8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
