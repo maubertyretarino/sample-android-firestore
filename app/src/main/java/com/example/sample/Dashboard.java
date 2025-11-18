@@ -6,6 +6,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.sample.R;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.firestore.DocumentReference;
@@ -15,7 +16,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Dashboard extends AppCompatActivity {
-
     FirebaseFirestore firestore;
 
     @Override
@@ -28,7 +28,6 @@ public class Dashboard extends AppCompatActivity {
 
         Map<String, Object> user = new HashMap<>();
 
-        firebase.Auth
         user.put("firstName", "testFirstname");
         user.put("lastName", "testLastname");
         user.put("description", "testDescription");
