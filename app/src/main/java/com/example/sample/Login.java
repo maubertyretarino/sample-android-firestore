@@ -47,7 +47,7 @@ public class Login extends AppCompatActivity {
         String password = editTextPassword.getText().toString().trim();
 
         if (email.isEmpty() || password.isEmpty()) {
-            Toast.makeText(this, "Please fill all fields", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "I LOVE sr owen!", Toast.LENGTH_SHORT).show();
             return;
         }
 
