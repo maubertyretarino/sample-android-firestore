@@ -47,9 +47,10 @@ public class Login extends AppCompatActivity {
         String password = editTextPassword.getText().toString().trim();
 
         if (email.isEmpty() || password.isEmpty()) {
-            Toast.makeText(this, "I LOVE sr owen!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "aksdhkjadsh", Toast.LENGTH_SHORT).show();
             return;
         }
+
 
         mAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, task -> {
