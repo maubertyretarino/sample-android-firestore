@@ -19,13 +19,7 @@
         android:text="Login"
         android:textSize="24sp" />
 
-    <EditText
-        android:id="@+id/editTextPassword"
-        android:layout_width="match_parent"
-        android:layout_height="94dp"
-        android:layout_marginTop="12dp"
-        android:hint="Password"
-        android:inputType="textPassword" />
+
 
     <EditText
         android:id="@+id/editTextEmail"
@@ -33,6 +27,14 @@
         android:layout_height="88dp"
         android:hint="Email"
         android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_marginTop="12dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
 
     <Button
         android:id="@+id/buttonLogin"

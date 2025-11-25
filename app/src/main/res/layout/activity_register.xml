@@ -10,12 +10,12 @@
     tools:context=".Register">
 
     <TextView
-        android:text="Register"
-        android:textSize="24sp"
-        android:gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"/>
+        android:layout_height="237dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="Register"
+        android:textSize="24sp" />
 
     <EditText
         android:id="@+id/editTextEmail"
